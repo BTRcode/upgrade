@@ -9,6 +9,16 @@
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
       "txHash": "0x24cc251b6a6aedac9d567a5bc5baa4ea18ce70a0f490a85f48bc04eb89340eb7",
       "kind": "transparent"
+    },
+    {
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "txHash": "0x7a6c0c4f13c8df9f10e60d7bba8e1bb8c2905c95e6d2e9567d119b360781b25e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+      "txHash": "0xedd112ec09d99878e830b8b020e18e1a7b005ad0592d2042c0404f7d150e5903",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -112,6 +122,65 @@
           "t_uint256": {
             "label": "uint256",
             "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "1523e8dcdecd61d81c205aa8539ce6545b9fd2deb33765004f98408c4c149e26": {
+      "address": "0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE",
+      "txHash": "0x022391115d895ec277d4aca9d57424096a339371eaa5262fcb1b84f945ce838b",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "_value",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "AdminBox",
+            "src": "contracts/AdminBox.sol:8"
+          },
+          {
+            "label": "_admin",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "AdminBox",
+            "src": "contracts/AdminBox.sol:9"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
           }
         }
       }
